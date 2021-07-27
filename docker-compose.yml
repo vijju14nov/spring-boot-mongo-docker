@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   springapp:
-    image: vijju14nov/spring-boot-mongo:1
+    image: vijju14nov/spring-boot-mongo:latest
     ports:
     - 8080:8080
     environment:
